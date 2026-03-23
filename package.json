@@ -1,0 +1,25 @@
+{
+  "name": "supercompact-ai",
+  "version": "1.0.0",
+  "description": "A zero-dependency TypeScript/JavaScript token mincer. Strips 40-60% of tokens from raw data without losing semantic context, designed specifically for heavy LLM workflows like MiroShark.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "llm",
+    "token",
+    "optimizer",
+    "compression",
+    "miroshark",
+    "rag",
+    "openai"
+  ],
+  "author": "John Tammi / WerkkoWelhot",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
